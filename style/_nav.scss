@@ -37,6 +37,9 @@
 
 .nav a:not(:first-child,:last-child):hover {
   font-size: 15px;
+  text-shadow: 2px 2px 5px black;
+  background: rgba(189, 186, 186, 0.623);
+  transition: 0.5s;
 }
 
 .icon {
