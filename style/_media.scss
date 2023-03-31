@@ -1,0 +1,234 @@
+@media (max-width:1225px) {
+  .nav a {
+    padding: 28px 15px;
+  }
+
+  .whyUs,
+  .whyUs-img,
+  .whyUs-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+  }
+
+  .whyUs p {
+    text-align: center;
+  }
+
+  .whyUs-img2 {
+    float: none;
+  }
+
+  .testimonial-card {
+    width: 80%;
+    height: auto;
+  }
+
+  .testimonial-card-info {
+    height: auto;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .explore-icon {
+    scale: 0.7;
+  }
+
+  .mock {
+    display: none;
+  }
+
+  .book-card {
+    width: 70%;
+    align-items: center;
+  }
+
+  .book-card p,
+  .book-card h5 {
+    text-align: center;
+  }
+
+  .explore img {
+    scale: 0.9;
+  }
+}
+
+@media (max-width: 1025px) {
+  .testimonial-card {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .testimonial-card-info {
+    max-width: 450px;
+    width: 100%;
+  }
+}
+
+@media (max-width:970px) {
+  header span {
+    display: none;
+  }
+
+  .nav .icon {
+    visibility: visible;
+  }
+
+  .nav a:not(:first-child, :last-child) {
+    display: none;
+  }
+
+  .nav.responsive a:not(:first-child, :last-child) {
+    display: block;
+    visibility: visible;
+    width: 100%;
+    text-align: right;
+    padding-right: 40px;
+    height: 50px;
+    padding-top: 15px;
+  }
+
+  .nav.responsive {
+    padding:0;
+  }
+
+  .explore-icon {
+    scale:0.7;
+  }
+
+  .explore p {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 860px) {
+  input::placeholder {
+    font-size: 12px;
+  }
+
+  .explore {
+    height: 250px;
+  }
+
+  .explore p {
+    font-size: 1.6em;
+  }
+
+  .explore-icon {
+    scale:0.6;
+  }
+}
+
+@media (max-width: 770px) {
+  .explore-icon i  {
+    scale:0.8;
+  }
+
+  .explore-icon {
+    height: 200px;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  form button {
+    max-width: 15%;
+  }
+
+  .book-card {
+    max-height: 500px;
+    justify-content: space-around;
+  }
+
+  .book-card .btn {
+    margin-top: 2em;
+  }
+}
+
+@media (max-width: 550px) {
+  header {
+    height: auto;
+  }
+
+  .testimonial img {
+    width: 98%;
+  }
+
+  .testimonial h2 {
+    font-size: 30px;
+  }
+
+  form i {
+    margin-left: -10px;
+  }
+
+  .book-card .btn {
+    margin-top: 6em;
+  }
+
+  .whyUs-content {
+    height: auto;
+    padding-bottom: 0;
+  }
+
+  .whyUs-img {
+    height: auto;
+    display: flex;
+    align-content: flex-start;
+    padding: 0;
+    margin: 0;
+    gap:0;
+  }
+
+  .whyUs-img img {
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 440px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  header p {
+    font-size: 1em;
+  }
+
+  form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 390px) {
+  header p {
+    font-size: 0.8em;
+  }
+
+  .whyUs h2 {
+    font-size: 28px;
+  }
+
+  .whyUs .btn {
+    width: 70%;
+  }
+
+  .book-card p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .book-card .btn {
+    margin-top: 10em;
+    scale: 0.8;
+  }
+
+  .testimonial h2 {
+    font-size: 24px;
+  }
+}
+
+

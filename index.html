@@ -28,13 +28,13 @@
   </header>
 
   <!--Nav-->
-  <nav class="nav">
+  <nav class="nav" id="nav-bar">
     <a href="#" class="logo">BHROMAON</a>
     <a href="#">WHO WE ARE</a>
     <a href="#">WHAT WE DO</a>
     <a href="#">TRAVEL WITH US</a>
     <a href="#">CONTACT US</a>
-    <a href="#"><i class="fa-solid fa-bars fa-2x icon"></i></a>
+    <a href="#" class="icon" onclick="burgerMenu()"><i class="fa-solid fa-bars fa-2x icon"></i></a>
   </nav>
 
   <!--Main-->
@@ -69,6 +69,7 @@
         <i class="fa-regular fa-thumbs-up"></i>
         <p>Book&ampEnjoy</p>
       </div>
+      <img src="/images/curves.svg" alt="curve">
     </section>
 
     <!--Book-->
@@ -125,6 +126,17 @@
       <a href="#"><i class="fa-solid fa-brands fa-pinterest"></i></a>
     </div>
   </footer>
+
+  <script>
+    function burgerMenu() {
+      let burger = document.getElementById("nav-bar");
+      if (burger.className === "nav") {
+        burger.className += " responsive";
+      } else {
+        burger.className = "nav";
+      }
+    }
+  </script>
 
 </body>
 
