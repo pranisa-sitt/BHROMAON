@@ -187,6 +187,11 @@
   .whyUs-img img {
     object-fit: contain;
   }
+
+  footer {
+    height: 250px;
+    gap:0;
+  }
 }
 
 @media (max-width: 440px) {
@@ -195,7 +200,7 @@
   }
 
   header p {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   form {
